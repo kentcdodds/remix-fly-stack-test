@@ -4,10 +4,9 @@ import {
   Meta,
   Outlet,
   Scripts,
-  ScrollRestoration
+  ScrollRestoration,
 } from "remix";
-import type { MetaFunction ,
-  LinksFunction} from "remix";
+import type { MetaFunction, LinksFunction } from "remix";
 
 import appStyles from "./styles/app.css";
 
@@ -30,6 +29,7 @@ export default function App() {
       </head>
       <body>
         <div>
+          <h1>This is dev!</h1>
           <Outlet />
         </div>
         <ScrollRestoration />
